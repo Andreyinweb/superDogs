@@ -6,7 +6,7 @@
 ##### Clone the repo
 
 ```
-$ git clone https://github.com/Lenainweb/superDogs.git
+$ git clone https://github.com/Andreyinweb/superDogs.git
 $ cd superdog
 ```
 
