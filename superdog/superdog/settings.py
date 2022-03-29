@@ -195,9 +195,7 @@ PHONENUMBER_DB_FORMAT = 'E164'
 DATETIME_FORMAT = "d M Y H:i:s"
 
 MEDIA_URL = "/media/"
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
-
-
+MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 
 
 """LOGGING В консоли runserver мы видим все запросы SQL, которые выполняются."""

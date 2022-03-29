@@ -125,15 +125,15 @@ class Dog(models.Model):
 
     # SCANNED (PHOTOGRAPHED) PEDIGREE OF THE DOG - FRONT SIDE
     # (file in JPG, PNG, or PDF format - max. Size is 6MB)
-    pedigree_of_dog_scanned_front = models.ImageField("Паспорт фронт",upload_to="media/download/pedigree_of_dog")
+    pedigree_of_dog_scanned_front = models.ImageField("Паспорт фронт",upload_to="download/pedigree_of_dog")
     
     # SCANNED (PHOTOGRAPHED) PEDIGREE OF THE DOG - BACK SIDE
     # (file in JPG, PNG, or PDF format - max. Size is 6MB)
-    pedigree_of_dog_scanned_back = models.ImageField("Паспорт тыл", upload_to="media/download/pedigree_of_dog")
+    pedigree_of_dog_scanned_back = models.ImageField("Паспорт тыл", upload_to="download/pedigree_of_dog")
 
     # SCANNED (PHOTOGRAPHED) CHAMPION CERTIFICATE
     # (file in JPG, PNG, or PDF format - max. Size is 6MB)
-    champion_certificate_scanned = models.ImageField("Сертификат чемпиона", upload_to="media/download/champion_certificate",  blank=True, null=True)
+    champion_certificate_scanned = models.ImageField("Сертификат чемпиона", upload_to="download/champion_certificate",  blank=True, null=True)
 
         
     def __str__(self):

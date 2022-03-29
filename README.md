@@ -13,7 +13,7 @@ $ cd superDogs
 ##### Initialize a virtualenv
 
 ```
-$ python3 -m venv env_dog
+$ python3.9 -m venv env_dog
 $ . env_dog/bin/activate 
 or
 env_dog\Scripts\activate
@@ -29,13 +29,13 @@ $ pip install -r requirements.txt
 ##### Create the database
 
 ```
-$ python3 manage.py migrate
+$ python3.9 manage.py migrate
 ```
 
 ## Running the server
 
 ```
-$ python3 manage.py runserver
+$ python3.9 manage.py runserver
 
 ```
 ```
